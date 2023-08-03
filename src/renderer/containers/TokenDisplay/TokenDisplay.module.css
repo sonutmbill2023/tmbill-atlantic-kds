@@ -1,0 +1,47 @@
+.tokensContainer {
+  display: grid !important;
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+  padding-left: 0;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+  height: 92vh;
+}
+
+.tokenNumber {
+  color: #1d162ac4;
+  font-size: xxx-large;
+  border: none !important;
+  border-radius: 0 !important;
+  font-weight: 900;
+  width: 33.33%;
+  height: fit-content;
+}
+
+.preparingList {
+  border-right: 1px solid #1d162a91;
+}
+
+.token-header {
+  font-size: 30px;
+}
+
+@media (max-width: 1200px) {
+  .tokenNumber {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px or less*/
+@media (max-width: 800px) {
+  .tokenNumber {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .tokenNumber {
+    width: 100%;
+  }
+}

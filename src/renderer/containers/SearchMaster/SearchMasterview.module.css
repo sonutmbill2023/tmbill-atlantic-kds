@@ -1,0 +1,70 @@
+.searchMasterscontainer {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eceaeae0;
+}
+
+.searchMastersresultcontainer {
+  width: 50%;
+}
+
+.foundTitle {
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.searchMasterscontainer ul {
+  background: #eceaeae0;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.searchMasterscontainer ul li {
+  list-style: none;
+  padding: 1rem;
+  background: white;
+  margin-top: 8px;
+  border: none !important;
+  border-radius: 10px;
+}
+
+.list_element_card {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center;
+  border: none !important;
+}
+
+button.connectButton {
+  color: white;
+  background-color: #69ab78;
+}
+
+button.connectButton:hover {
+  color: white;
+}
+
+.searchingMastertitle {
+  font-size: 2rem;
+  opacity: 0.7;
+  margin-bottom: 2rem;
+}
+
+.searchMastersloadercontainer {
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

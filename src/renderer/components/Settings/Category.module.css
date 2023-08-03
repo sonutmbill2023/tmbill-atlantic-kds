@@ -1,0 +1,90 @@
+.categoryWrapper {
+  height: 100dvh;
+  width: 100%;
+}
+
+.header {
+  background: #fff !important;
+  padding: 0 10px 0 10px !important;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 5px !important;
+  background: #fff !important;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 3px 20px 3px 0;
+}
+
+.searchinput {
+  width: 50%;
+}
+
+.categoryparentContainer {
+  width: 100%;
+  height: 78vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.itemNamecontainer {
+  font-size: 16px;
+}
+
+.categoryName {
+  font-size: x-large;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: green;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.categoryitemsContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categoryitem {
+  width: 30%;
+  display: flex;
+  padding: 10px;
+  border: 1px solid #f1eeee5c;
+  border-radius: 3px;
+  justify-content: space-between;
+}
+
+.categoryitem * {
+  margin-right: 5px;
+}
+.categoryContainer {
+  width: 100%;
+  padding-bottom: 3px;
+}
+
+/* On screens that are 600px or less*/
+@media (min-width: 1000px) {
+  .categoryitem {
+    width: 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .categoryitem {
+    width: 50%;
+  }
+}

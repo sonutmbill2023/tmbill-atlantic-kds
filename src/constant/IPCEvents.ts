@@ -1,0 +1,18 @@
+interface IEvent {
+  [key: string]: string;
+}
+
+export const IPC_SERVICE_DISCOVERY: IEvent = {
+  GET_LIST: 'IPC:SERVICE_DISCOVERY:GET_LIST',
+};
+
+export const STORE_IPC = {
+  GET_SETTINGS: `STORE_IPC::GET_SETTINGS`,
+  UPDATE_SETTINGS: `STORE_IPC::UPDATE_SETTINGS`,
+  GET_DASH_SETTINGS: `STORE_IPC::GET_DASH_SETTINGS`,
+};
+
+export const SOCKET_IO_EVENTS = {
+  INIT_SOCKET: 'EVENTS:SOCKET_IO_EVENTS:INIT_SOCKET',
+};
+export const BaseURL = '';

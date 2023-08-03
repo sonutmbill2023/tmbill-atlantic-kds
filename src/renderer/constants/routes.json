@@ -1,0 +1,11 @@
+{
+  "LOADER": "/",
+  "HOME": "/home",
+  "FINDMASTER": "/findmaster",
+  "COUNTER": "/counter",
+  "LOGIN": "/login",
+  "SETTINGS": {
+    "CATEGOEY": "/settings/category",
+    "GENERAL": "/settings/general"
+  }
+}

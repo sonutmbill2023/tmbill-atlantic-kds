@@ -1,0 +1,57 @@
+.ant-list {
+  line-height: 1 !important;
+}
+
+.ant-btn {
+  font-weight: 700;
+  font-size: 16px;
+  height: 33px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.homeactionContainer {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px 0px 10px;
+}
+
+.homeactionContainer > div {
+  display: flex;
+  align-items: center;
+}
+
+.settingButton {
+  border: none !important;
+}
+
+.totalCount {
+  margin-left: 5px;
+}
+
+.totalCountbage {
+  margin-left: 5px !important;
+}
+
+.tablesContainer {
+  display: grid !important;
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+  padding-left: 0;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.container h2 {
+  font-size: 5rem;
+}
+
+.container a {
+  font-size: 1.4rem;
+}
